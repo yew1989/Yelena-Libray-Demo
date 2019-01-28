@@ -208,26 +208,12 @@
 			remoteGlobalIDString = B9FA850FC2F37E957476E92B5AA7C7DA;
 			remoteInfo = YLCore;
 		};
-		70CD04B90E20AC95062CB48C8544D3D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EABDFFFE1E889B87B1197D012AD068A;
-			remoteInfo = AFNetworking;
-		};
 		74AD8E4D07A7D19EF62C614E09E2B30F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9FA850FC2F37E957476E92B5AA7C7DA;
 			remoteInfo = YLCore;
-		};
-		7936DE0333E156C6E7833C48DA181CC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAF929F6720D1D1E51490448D085CE10;
-			remoteInfo = YLHttp;
 		};
 		85DF3B1555F3DB2DCF58DBAC8C501E97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1118,10 +1104,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				97B4746D6285593706B7286AE2182240 /* PBXTargetDependency */,
 				EB4EC2523B48C7C12ED5F957000B4278 /* PBXTargetDependency */,
 				BD0F9119A7A73B477E5A4C608FC54836 /* PBXTargetDependency */,
-				E88CA10966A48C29D5CFE28218359185 /* PBXTargetDependency */,
 			);
 			name = YLUIExt;
 			productName = YLUIExt;
@@ -1349,12 +1333,6 @@
 			target = F9DC9D46C4AA6EC39C070C74834029ED /* SDWebImage */;
 			targetProxy = 33D7744B86F297708694E82E4AB96BD0 /* PBXContainerItemProxy */;
 		};
-		97B4746D6285593706B7286AE2182240 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0EABDFFFE1E889B87B1197D012AD068A /* AFNetworking */;
-			targetProxy = 70CD04B90E20AC95062CB48C8544D3D4 /* PBXContainerItemProxy */;
-		};
 		BD0F9119A7A73B477E5A4C608FC54836 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YLCore;
@@ -1372,12 +1350,6 @@
 			name = YLHttp;
 			target = FAF929F6720D1D1E51490448D085CE10 /* YLHttp */;
 			targetProxy = 85DF3B1555F3DB2DCF58DBAC8C501E97 /* PBXContainerItemProxy */;
-		};
-		E88CA10966A48C29D5CFE28218359185 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YLHttp;
-			target = FAF929F6720D1D1E51490448D085CE10 /* YLHttp */;
-			targetProxy = 7936DE0333E156C6E7833C48DA181CC5 /* PBXContainerItemProxy */;
 		};
 		EA2A1F768024157129D166A1C5672994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
